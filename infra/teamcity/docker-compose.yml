@@ -14,7 +14,8 @@ services:
     environment:
       SERVER_URL: http://teamcity:8111
     volumes:
-      - c:/var/run/docker.sock:/var/run/docker.sock
+      - /data/teamcity_agent/conf:/data/teamcity_agent/conf
+      - /var/run/docker.sock:/var/run/docker.sock
 
 volumes:
   teamcity-server-datadir:
