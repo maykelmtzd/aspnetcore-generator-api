@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\api.csproj", "{3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{5B9D4691-4C99-4F2B-BFBB-398C1B76A080}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "integration", "integration\integration.csproj", "{BBF3220F-1C94-4081-B52A-C730B654C651}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{5B9D4691-4C99-4F2B-BFBB-398C1B76A080}.Release|x64.Build.0 = Release|x64
 		{5B9D4691-4C99-4F2B-BFBB-398C1B76A080}.Release|x86.ActiveCfg = Release|x86
 		{5B9D4691-4C99-4F2B-BFBB-398C1B76A080}.Release|x86.Build.0 = Release|x86
+		{BBF3220F-1C94-4081-B52A-C730B654C651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF3220F-1C94-4081-B52A-C730B654C651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF3220F-1C94-4081-B52A-C730B654C651}.Debug|x64.ActiveCfg = Debug|x64
+		{BBF3220F-1C94-4081-B52A-C730B654C651}.Debug|x64.Build.0 = Debug|x64
+		{BBF3220F-1C94-4081-B52A-C730B654C651}.Debug|x86.ActiveCfg = Debug|x86
+		{BBF3220F-1C94-4081-B52A-C730B654C651}.Debug|x86.Build.0 = Debug|x86
+		{BBF3220F-1C94-4081-B52A-C730B654C651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF3220F-1C94-4081-B52A-C730B654C651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF3220F-1C94-4081-B52A-C730B654C651}.Release|x64.ActiveCfg = Release|x64
+		{BBF3220F-1C94-4081-B52A-C730B654C651}.Release|x64.Build.0 = Release|x64
+		{BBF3220F-1C94-4081-B52A-C730B654C651}.Release|x86.ActiveCfg = Release|x86
+		{BBF3220F-1C94-4081-B52A-C730B654C651}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
